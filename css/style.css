@@ -80,3 +80,7 @@ body{
 .login-form p{
 	padding-bottom: 20px;
 }
+
+img{
+	max-width: 25%;
+}
