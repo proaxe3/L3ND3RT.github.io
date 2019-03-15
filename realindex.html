@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+	<title>Bangeroo :: Home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="icon" type="icon" href="images/Bangeroo.png">
+</head>
+<body>
+	<div class="login-page">
+	<div class="form">
+		<form class="register-form">
+			<input type="text" placeholder="E-mail">
+			<input type="text" placeholder="Username">
+			<input type="text" placeholder="Password">
+			<input type="text" placeholder="Confirm Password">
+			<input class="button" type="submit" value="Register">
+			<p class="message">Already registered? <a href="#">Login</a>.</p>
+		</form>
+
+		<form class="login-form">
+			<img src="images/Bangeroo.png">
+			<h2>Login</h1>
+			<p>Use your private Bangeroo-account.</p>
+			<input type="text" placeholder="Username">
+			<input type="password" placeholder="Password">
+			<input class="button" type="submit" value="Login">
+		</form>
+	</div>
+	</div>
+
+	<script scr="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript"> 
+		$('.message a').click(function(){
+		$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+		});
+	</script>
+</body>
+</html>
